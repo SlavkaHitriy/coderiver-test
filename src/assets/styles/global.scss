@@ -1,0 +1,58 @@
+@import "./includes/vars";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto&display=swap");
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+html, body {
+   width: 100%;
+   overflow-x: hidden;
+}
+
+body {
+   background-color: $gray;
+   color: $black;
+   font-size: 18px;
+   line-height: 1.7;
+   font-family: $robotoFont;
+   margin: 0;
+}
+
+.container {
+   max-width: 1210px;
+   padding: 0 20px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+   transition: all .15s;
+}
+
+button {
+   background-color: unset;
+   border: 0;
+   outline: none;
+   font-family: inherit;
+   font-size: inherit;
+   display: block;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+}
+
+p {
+   margin: 0;
+}
